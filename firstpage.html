@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Daily reflection form</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,
+        initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+    </head>
+    <body>
+        <div class="form-container">
+            <h1><b><u>DAILY REFLECTION FORM</u></b></h1>
+            <form action ="#" >
+                <label for="name"> Name</label><br>
+                <input type="text"name="name" required> <br><br>
+                <label > Gender:</label> <br>
+                <input type="radio" name="gender" value="male"> male  
+                <input type="radio" name="gender" value="female">female
+                <input type="radio" name="gender" value="other"> other  
+                <br><br>
+                <label for="what-happened">What happened in your day today? </label>
+                <textarea name="what-happened" rows="5" required>
+                </textarea><br><br>
+                <label for="what-you-did"> What did you do today?</label><br>
+                <textarea name="what-you-did" rows="5" required></textarea><br><br>
+                <label for="did-you-felt-happy-today?"> Did you felt happy today?</label><br>
+                <input type="radio" name="yes" value="yes"> YES 
+                <input type="radio" name="no" value="no"> NO<br><br>
+              <label for="happy-moment"> What was the happy moment of your day?</label><br>
+                <textarea name="happy-moment" rows="5" ></textarea><br><br>
+                <label>How much would you rate this form?</label><br>
+                <div class="rating-group">
+                    <label> <input type="radio" name="bad" value="bad">BAD
+                    </label>
+                    <label> <input type="radio" name="average" value="average">AVERAGE  
+                    </label>
+                    <label> 
+                        <input type="radio" name="excellent" value="excellent"> EXCELLENT
+                    </label>
+                </div><br>
+                <label for="feedback">FEEDBACK</label><br>
+                <textarea name="feedback" rows="5"></textarea><br>
+                <button type="submit" value="submit">SUBMIT</button>
+
+
+            </form>
+
+
+        </div>
+    </body>
+    </html>
