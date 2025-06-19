@@ -1,1 +1,1 @@
-This is adaily reflection form.
+This is a daily reflection form.
