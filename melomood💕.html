@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content=" width=device-width, initial-scale=1.0">
+        <title> MELOMOOD </title>
+        <link rel="stylesheet" href="melostyle.css">
+        
+        </head>
+        <body class="relaxed">
+            <header>ō
+                <div class="top-bar">
+                    <div class="left-section">
+                        <h1> <b> <em> <u>MELOMOOD:</u> your aesthetic Journal and Task Planner.</em></b></h1>
+                        <div class="mood-buttons">
+                        <button class="mood-btn happy" data-theme="happy">😊Happy</button>
+                       <button class="mood-btn sad" data-theme="sad">😢Sad</button>
+                       <button class="mood-btn angry" data-theme="angry">😠Angry</button>
+                       <button class="mood-btn relaxed" data-theme="relaxed">😌Relaxed</button>
+                       <button class="mood-btn focused" data-theme="focused">🤓Focused</button>
+                        </div>
+
+
+                    </div>
+                    <div class="right-section"> 
+                        <div class="mode-buttons">
+                            <button id="journalbtn"> 📖Journal</button>
+                            <button id="plannerbtn">📝Task Planner</button>
+                            
+</section>
+                        </div>
+                        <div class="date-info">
+                            📅Date & 🕰️Time: 
+                            <div>
+                            <span id="currentDateTime"></span>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                
+                </div>
+    
+
+            </header>
+            <main>
+                 <main>
+    <section id="journalSection" class="content-section">
+        <h2><em> <b> <u>Your Journal</u></b></em></h2>
+        <textarea id="journal-entry" placeholder="Write your thoughts here..."></textarea>
+        <button id="save-entry">💾 Save Entry</button>
+    </section>
+    <section id="plannerSection" class="content-section hidden">
+        <h2><em> <b><u>Today's tasks</u></b></em></h2>
+        <textarea id="task-list" placeholder="List your tasks here..."></textarea>
+        <button id="save-tasks">💾 Save Tasks</button>
+        <input id="taskInput" type="text" placeholder="Enter a task..." />
+    <button id="addTaskBtn">➕ Add Task</button>
+    <ul id="taskList" class="task-list"></ul>
+</section>
+        
+    </section>
+</main>
+            
+                </section>
+                
+            </main>
+            <script src="melomood.js"></script>
+            
+
+        </body>
+            
+        
+</html>
